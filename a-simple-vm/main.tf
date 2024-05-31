@@ -41,5 +41,6 @@ resource "google_compute_instance" "default" {
 
   metadata = {
     //ssh-keys = "jon:${file(pathexpand("~/.ssh/id_rsa.pub"))}"
+    //tmp
   }
 }
